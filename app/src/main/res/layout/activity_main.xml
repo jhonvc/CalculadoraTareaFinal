@@ -1,7 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/colorBlack">
+    android:background="@color/colorPrimaryDark">
 
 
     <TextView
@@ -10,20 +10,20 @@
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:gravity="end"
-        android:textColor="@color/colorWhite"
-        android:background="@color/colorBlack"
+        android:textColor="@color/colorNegro"
+        android:background="@color/colorWhite"
         android:padding="10dp"
-        android:text="2314" />
+        android:hint="Escribe el numero" />
     <TextView
         android:id="@+id/caja2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="60sp"
         android:gravity="end"
-        android:textColor="@color/colorWhite"
-        android:background="@color/colorBlack"
+        android:textColor="@color/colorNegro"
+        android:background="@color/colorWhite"
         android:padding="10dp"
-        android:text="2314" />
+        android:text="" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -36,7 +36,7 @@
             android:id="@+id/btnEliminar"
             android:layout_row="0"
             android:layout_column="1"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="C"
             android:textColor="@color/colorWhite"
             android:textSize="25sp" />
@@ -49,7 +49,7 @@
             android:id="@+id/btnParentesis"
 
             android:layout_marginLeft="102dp"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="( )"
             android:textColor="@color/colorWhite"
             android:textSize="25sp" />
@@ -60,7 +60,7 @@
             android:layout_row="0"
             android:layout_column="0"
             android:layout_marginLeft="204dp"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:id="@+id/btnPorcentaje"
             android:text="%"
             android:textColor="@color/colorWhite"
@@ -73,7 +73,7 @@
             android:layout_column="0"
             android:id="@+id/btnDivision"
             android:layout_marginLeft="307dp"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="/"
             android:textColor="@color/colorWhite"
             android:textSize="25sp" />
@@ -84,7 +84,7 @@
             android:layout_row="0"
             android:layout_column="1"
             android:id="@+id/btn7"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="7"
             android:textColor="@color/colorWhite"
             android:textSize="25sp" />
@@ -98,7 +98,7 @@
             android:id="@+id/btn8"
 
             android:layout_marginLeft="102dp"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="8"
             android:textColor="@color/colorWhite"
             android:textSize="25sp" />
@@ -111,7 +111,7 @@
             android:layout_column="0"
             android:id="@+id/btn9"
             android:layout_marginLeft="204dp"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="9"
             android:textColor="@color/colorWhite"
             android:textSize="25sp" />
@@ -124,7 +124,7 @@
             android:id="@+id/btnMultiplicar"
             android:layout_marginLeft="307dp"
             android:layout_marginTop="103dp"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="x"
             android:textColor="@color/colorWhite"
             android:textSize="25sp" />
@@ -135,7 +135,7 @@
             android:layout_row="0"
             android:layout_column="1"
             android:id="@+id/btn4"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="4"
             android:textColor="@color/colorWhite"
             android:textSize="25sp" />
@@ -148,7 +148,7 @@
             android:layout_marginTop="205dp"
             android:id="@+id/btn5"
             android:layout_marginLeft="102dp"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="5"
             android:textColor="@color/colorWhite"
             android:textSize="25sp" />
@@ -161,7 +161,7 @@
             android:layout_column="0"
             android:id="@+id/btn6"
             android:layout_marginLeft="204dp"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="6"
             android:textColor="@color/colorWhite"
             android:textSize="25sp" />
@@ -174,7 +174,7 @@
             android:id="@+id/btnMenos"
             android:layout_marginLeft="307dp"
             android:layout_marginTop="205dp"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="-"
             android:textColor="@color/colorWhite"
             android:textSize="25sp" />
@@ -185,7 +185,7 @@
             android:layout_marginTop="408dp"
             android:layout_row="0"
             android:layout_column="1"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="0"
             android:textColor="@color/colorWhite"
             android:textSize="25sp" />
@@ -197,7 +197,7 @@
             android:layout_column="2"
             android:layout_marginTop="408dp"
             android:layout_marginLeft="102dp"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="XD"
             android:id="@+id/btnXD"
             android:textColor="@color/colorWhite"
@@ -211,7 +211,7 @@
             android:layout_column="0"
             android:id="@+id/btnPunto"
             android:layout_marginLeft="204dp"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="."
             android:textColor="@color/colorWhite"
             android:textSize="25sp" />
@@ -224,7 +224,7 @@
             android:id="@+id/btnIgual"
             android:layout_marginLeft="307dp"
             android:layout_marginTop="408dp"
-            android:background="@color/colorBlack"
+            android:background="@color/colorPrimaryDark"
             android:text="="
             android:textColor="@color/colorWhite"
             android:textSize="25sp" />
@@ -235,7 +235,7 @@
             android:layout_marginTop="307dp"
             android:layout_row="0"
             android:layout_column="1"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="1"
             android:textColor="@color/colorWhite"
             android:textSize="25sp" />
@@ -247,7 +247,7 @@
             android:layout_column="2"
             android:layout_marginTop="307dp"
             android:layout_marginLeft="102dp"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="2"
             android:id="@+id/btn2"
             android:textColor="@color/colorWhite"
@@ -261,7 +261,7 @@
             android:layout_column="0"
             android:id="@+id/btn3"
             android:layout_marginLeft="204dp"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="3"
             android:textColor="@color/colorWhite"
             android:textSize="25sp" />
@@ -273,7 +273,7 @@
             android:layout_column="0"
             android:layout_marginLeft="307dp"
             android:layout_marginTop="307dp"
-            android:background="@color/colorBlack"
+            android:background="@color/colorNegro"
             android:text="+"
             android:id="@+id/btnPlus"
             android:textColor="@color/colorWhite"

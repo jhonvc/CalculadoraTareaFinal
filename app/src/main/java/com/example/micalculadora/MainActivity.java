@@ -193,12 +193,14 @@ public class MainActivity extends AppCompatActivity {
                 String finalresultado="";
                 try {
                     Scriptable scriptable=rhino.initSafeStandardObjects();
-                    
+                    finalresultado=rhino.evaluateString(scriptable,proceso,"javascript",1,null).toString();
+
 
                 }catch (Exception e){
                     finalresultado="0";
                 }
                 tvOuput.setText(finalresultado);
+
 
             }
         });
